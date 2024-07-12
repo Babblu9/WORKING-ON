@@ -1,20 +1,6 @@
 # CP-VTON+ (CPU) (new 2023)
 
-#### Original Author
-```
-@InProceedings{Minar_CPP_2020_CVPR_Workshops,
-	title={CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On},
-	author={Minar, Matiur Rahman and Thai Thanh Tuan and Ahn, Heejune and Rosin, Paul and Lai, Yu-Kun},
-	booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-	month = {June},
-	year = {2020}
-}
-```
-#### this is a CPU version, for cuda version refer to the master branch.
 
-<br/>Project [page](https://minar09.github.io/cpvtonplus/)
-<br/>Saved/Pre-trained models: [Checkpoints](https://1drv.ms/u/s!Ai8t8GAHdzVUiQA-o3C7cnrfGN6O?e=EaRiFP)
-<br/>Dataset: [VITON_PLUS](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
 
 ## what's new [Oct 2023]
 - Python 3.11 support.
