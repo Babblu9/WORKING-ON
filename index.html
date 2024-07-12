@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try-On Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Try-On</h1>
+        </header>
+        <main>
+            <div class="upload-container">
+                <div class="upload-section">
+                    <label for="user-image-upload" class="upload-label">User Image *</label>
+                    <input type="file" id="user-image-upload" class="upload-input" accept="image/*">
+                </div>
+                <div class="upload-section">
+                    <label for="cloth-image-upload" class="upload-label">Cloth Image *</label>
+                    <input type="file" id="cloth-image-upload" class="upload-input" accept="image/*">
+                </div>
+            </div>
+            <div class="options">
+                <label for="category" class="options-label">Category *</label>
+                <select id="category" class="options-select">
+                    <option value="upper_body">upper_body</option>
+                    <option value="lower_body">lower_body</option>
+                    <option value="full_body">full_body</option>
+                </select>
+                <label for="caption" class="options-label">Caption</label>
+                <input type="text" id="caption" class="options-input" placeholder="red, T-shirt">
+            </div>
+            <div class="try-on">
+                <button id="try-on-button" class="try-on-button">Try On</button>
+                <p class="credit-cost">1 credit cost</p>
+            </div>
+            <div id="result-container"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
